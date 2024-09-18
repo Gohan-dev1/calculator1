@@ -33,6 +33,7 @@ public class CalculatorTest {
 		assertTrue(cl.doSub(1, 1) == 0);
 	}
 
+	@Test public void testAdd() { assertTrue(cl.doAdd(1, 2) == 3); }
 	@Test
 	public void testMul() {
 		assertTrue(cl.doMul(9, 2) == 18);
