@@ -29,7 +29,7 @@ public class CalculatorTest {
 	@Test
 	public void testAdd() {
 
-		assertTrue(cl.doAdd(1, 2) == 3);
+		assertTrue(cl.doAdd(1, 2) == 4);
 	}
 
 	@Test
